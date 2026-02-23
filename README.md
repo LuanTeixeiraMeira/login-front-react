@@ -1,4 +1,6 @@
-# Login App — React para Iniciantes
+# Login App — React
+
+Teste com IA
 
 ## Como rodar
 
