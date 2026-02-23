@@ -1,0 +1,25 @@
+/* App.css — estilos globais */
+
+/* Variáveis de cor: mude aqui para alterar o tema inteiro */
+:root {
+  --cor-fundo:         #f4f6f9;
+  --cor-card:          #ffffff;
+  --cor-texto:         #1a1d23;
+  --cor-texto-suave:   #6b7280;
+  --cor-borda:         #e5e7eb;
+  --cor-primaria:      #4f46e5;
+  --cor-primaria-hover:#4338ca;
+  --cor-erro:          #dc2626;
+  --cor-erro-fundo:    #fef2f2;
+  --raio:              8px;
+}
+
+/* Centraliza o card na tela */
+.page {
+  min-height: 100vh;
+  background-color: var(--cor-fundo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}

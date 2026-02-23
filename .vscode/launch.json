@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome and Start React",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/src",
+            "preLaunchTask": "npm: start",
+            "serverReadyAction": {
+                "pattern": "You can now view",
+                "uriFormat": "http://localhost:3000",
+                "action": "openExternally"
+            }
+        },
+        {
+            "name": "Attach to Chrome (localhost:3000)",
+            "type": "chrome",
+            "request": "attach",
+            "port": 3000,
+            "webRoot": "${workspaceFolder}/src"
+        }
+    ]
+}
